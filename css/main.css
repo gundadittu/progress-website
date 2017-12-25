@@ -1130,7 +1130,7 @@ header .logo a {
 	border: none;
 	width: 96px;
 	height: 20px;
-	background: url("../images/logo.png") no-repeat center;
+	background: url("../images/logo.png");
 	background-size: 96px 20px;
 	font: 0/0 a;
 	text-shadow: none;
@@ -1150,7 +1150,7 @@ header .logo a {
 	height: 42px;
 	display: block;
 	outline: 0;
-	background: #111111;
+	background: #462db4;
 	position: absolute;
 	top: 20px;
 	right: 20px;
@@ -1363,7 +1363,7 @@ header .logo a {
  * ------------------------------------------------------------------- */
 #intro {
 	position: relative;
-	background-image: url(../images/intro-bg.jpg);
+	background-color: #462db4;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: center top;
@@ -1390,7 +1390,7 @@ header .logo a {
 
 #intro h1 {
 	font-weight: bold;
-	font-size: 5.3rem;
+	font-size: 5rem;
 	line-height: 1.267;
 	color: #ffffff;
 	padding: 0 12%;
@@ -1526,7 +1526,7 @@ header .logo a {
  * ------------------------------------------------------------------- */
 #features {
 	padding: 15rem 0 12rem;
-	background-color: #f9da4f;
+	background-color: #ffffff;
 	overflow: hidden;
 }
 
