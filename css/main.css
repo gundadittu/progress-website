@@ -1031,7 +1031,8 @@ input::-moz-focus-inner {
 }
 
 .section-intro h2 {
-	font-family: "domine-bold", serif;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: bold;
 	font-size: 4.8rem;
 	line-height: 1.25;
 	margin-bottom: 1.2rem;
@@ -1378,21 +1379,31 @@ header .logo a {
 	z-index: 600;
 }
 
-#intro h3 {
+#intro h4 {
 	margin-top: .2rem;
-	margin-bottom: 1.6rem;
+	margin-bottom: 3rem;
 	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
 	color: #ffffff;
 	font-weight: bolder;
-	font-size: 5rem;
+	font-size: 3rem;
+}
+
+#intro h3 {
+	margin-top: .2rem;
+	margin-bottom: 1.6rem;
+	color: #ffffff;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+	font-weight: bold;
+	font-size: 2rem;
+
 }
 
 #intro h1 {
 	font-weight: bold;
-	font-size: 4.5rem;
+	font-size: 5.3rem;
 	line-height: 1.267;
 	color: #ffffff;
-	padding: 0 15%;
+	padding: 0 4%;
 	text-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
 }
 
@@ -1408,8 +1419,8 @@ header .logo a {
 
 #intro .buttons .button:hover,
 #intro .buttons .button:focus {
-	border: 3px solid #f9da4f;
-	color: #f9da4f;
+	border: 3px solid #ffffff;
+	color: #ffffff;
 }
 
 #intro img {
@@ -1417,16 +1428,7 @@ header .logo a {
 }
 
 .shadow-overlay {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	opacity: .5;
-	background: -moz-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
-	background: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
-	background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#cc000000', GradientType=0);
+	
 }
 
 /* ------------------------------------------------------------------- 
@@ -1523,7 +1525,7 @@ header .logo a {
  *
  * ------------------------------------------------------------------- */
 #features {
-	padding: 15rem 0 12rem;
+	padding: 8rem 0 12rem;
 	background-color: #ffffff;
 	overflow: hidden;
 }
@@ -1535,6 +1537,10 @@ header .logo a {
 
 #features .feature {
 	padding: 0 30px 1.5rem 30px;
+}
+
+#features h2 {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 #features h3 {
