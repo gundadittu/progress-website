@@ -1243,7 +1243,6 @@ header .logo a {
  * ------------------------------------------------------------------- */
 @media only screen and (max-width:768px) {
 	header .logo {
-		top: 33px;
 	}
 }
 
